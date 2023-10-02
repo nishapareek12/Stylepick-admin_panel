@@ -1,0 +1,48 @@
+/* Navbar.css */
+
+.navbar {
+    background-color: #333; /* Background color of the navbar */
+    width: 200px; /* Set the width of the vertical navbar */
+    height: 100vh; /* Make the navbar take full viewport height */
+    position: fixed; /* Fixed position to keep it visible while scrolling */
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column; /* Stack links vertically */
+    align-items: center; /* Center links horizontally */
+    padding: 20px; /* Add some padding to the links */
+    color: #fff; /* Text color */
+  }
+  
+  .logo {
+    width: 100px; /* Adjust the logo size as needed */
+    margin-bottom: 20px; /* Spacing between logo and links */
+  }
+  
+  .link {
+    display: flex;
+    flex-direction: column; /* Stack links vertically */
+    text-align: center; /* Center text within links */
+    align-items: flex-start;
+    gap: 10px; /* Spacing between links */
+  }
+  
+  /* Style the links (customize as needed) */
+  .link a {
+    text-decoration: none; /* Remove underlines from links */
+    color: #fff; /* Link text color */
+    font-weight: bold;
+    transition: color 0.3s; /* Add a smooth color transition on hover */
+  
+    /* Hover effect */
+    &:hover {
+      color: #00bcd4; /* Change the color on hover */
+    }
+  }
+
+  .icon{
+    font-size: 24;
+    color: 'blue';
+    margin: -8px 12px;
+    padding: 1px 1px;
+  }

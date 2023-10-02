@@ -1,0 +1,98 @@
+/* .dashboard{
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    height: 29px;
+    width: auto;
+    border-bottom: 1px solid black;
+    margin: 51px 0px;
+    padding: 0px 0px;
+    
+}
+.comb{
+    margin: 0rem 0rem;
+    padding: 0rem 0rem;
+    border-bottom: 1px solid black;
+}
+
+.overview{
+  display: flex;
+  flex-direction: row;
+   right: 30rem;
+  justify-content: flex-start;
+  align-items: flex-start;
+  height: 29px;
+  width: auto;
+  margin: 20px 0px;
+  padding: 0px 0px;
+    
+}
+.ovIcon{
+    display: flex;
+    align-items: right;
+    margin: 0rem 0rem;
+    padding: 0rem 0rem;
+}
+.ov{
+    margin: 0rem 0rem;
+    padding: 0rem 0rem;
+ }
+.ovBtn{
+   margin: 0rem 0rem;
+   padding: 0rem 0rem;
+}
+
+ */
+
+ .dashboard {
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    height: 29px;
+    width: auto;
+    border-bottom: 1px solid black;
+    margin: 51px 0px;
+    padding: 0px 0px;
+  }
+  
+  .comb {
+    margin: 0rem 0rem;
+    padding: 0rem 0rem;
+    border-bottom: 1px solid black;
+  }
+  
+  .overview {
+    display: flex;
+    flex-direction: row;
+    /* Shift the contents 245px to the right */
+    margin-left: 245px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 29px;
+    width: auto;
+    margin: 20px 0px;
+    padding: 0px 0px;
+  }
+  
+  .ovIcon {
+    display: flex;
+    align-items: right;
+    margin: 0rem 0rem;
+    padding: 0rem 0rem;
+  }
+  
+  .ov {
+    margin: 0rem 0rem;
+    padding: 0rem 0rem;
+  }
+  
+  .ovBtn {
+    /* Move .ovBtn to the extreme right */
+    margin-left: auto;
+    padding: 0rem 0rem;
+  }
+  

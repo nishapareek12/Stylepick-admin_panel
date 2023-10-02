@@ -1,0 +1,42 @@
+.Header{
+    height: 150px;
+    width:75%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20rem;
+    z-index: 3;
+}
+.overview{
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid black;
+    border-width: 100%;
+    height: 75px;
+    margin: 2px 2px;
+}
+
+.dashbrdhead{
+    height: 75px;
+    margin: 3px 3px;
+    padding: 3px 3px;
+    z-index: 4;
+    border-bottom: 1px solid black;
+}
+.dashIcon {
+    height: 30px;
+    margin: 3px 3px;
+    padding: 3px 3px;
+}
+.ov{
+    height: 30px; 
+    margin: 3px 3px;
+    padding: 3px 3px;
+}
+.ovbtn{
+    
+      margin-left: auto;
+      margin-top: 5px;
+      margin-bottom: 5px;
+}
+
+
