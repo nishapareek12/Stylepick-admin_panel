@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 import './merchant.css';
-// import  api from "../api/contacts";
+import Header from '../Header/Header'
 
 const MerchantTable = () => {
   const [merchants, setMerchants] = useState([]);
@@ -15,7 +16,7 @@ const MerchantTable = () => {
         return response.json();
       })
       .then((data) => {
-        console.log('Data received:', data); // Add this line for debugging
+        console.log('Data received:', data);
         setMerchants(data);
       })
       .catch((error) => {
@@ -25,7 +26,8 @@ const MerchantTable = () => {
 
   return (
     <div>
-      <h1>Merchant Table</h1>
+      {/* <h1>Merchant Table</h1> */}
+      <Header/>
       <table>
         <thead>
           <tr>
@@ -42,7 +44,11 @@ const MerchantTable = () => {
           {merchants.map((merchant) => (
             <tr key={merchant.Merchant_ID}>
               <td>{merchant.Merchant_ID}</td>
-              <td>{merchant.Merchant_NAME}</td>
+              <td>
+                <Link to={`/merchant/${merchant.Merchant_ID}`}>
+                  {merchant.Merchant_NAME}
+                </Link>
+              </td>
               <td>{merchant.Location}</td>
               <td>{merchant.Updated_Date}</td>
               <td>{merchant.Created_DATE}</td>
@@ -57,3 +63,5 @@ const MerchantTable = () => {
 };
 
 export default MerchantTable;
+
+

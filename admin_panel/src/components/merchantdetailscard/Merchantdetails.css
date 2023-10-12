@@ -1,0 +1,22 @@
+
+/* merchant-details.css */
+
+.merchant-details-card {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  text-align: left;
+}
+
+/* Center the card vertically and horizontally on the page */
+html, body {
+  height: 100%;
+  margin: 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f0f0f0; /* Set your desired background color */
+}

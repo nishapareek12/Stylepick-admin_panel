@@ -1,68 +1,69 @@
 {
-    "const_merchantData" :[
+    "const_merchantData": [
       {
-          "Merchant_ID": "$359",
-          "Merchant_NAME": "Elizabeth Lee",
-          "Location": "AvatarSystems",
-          "Updated_Date": "01/03/2023",
-          "Created_DATE": "10/07/2023",
-          "Plan_STATUS": "Active",
-          "Catalogue_upload": ""
+        "Merchant_ID": "$359",
+        "Merchant_NAME": "Elizabeth Lee",
+        "Location": "AvatarSystems",
+        "Updated_Date": "01/03/2023",
+        "Created_DATE": "10/07/2023",
+        "Plan_STATUS": "Active",
+        "Catalogue_upload": "No Upload"
       },
       {
-          "Merchant_ID": "$747",
-          "Merchant_NAME": "Carlos Garcia",
-          "Location": "SmoozeShift",
-          "Updated_Date": "05/07/2021",
-          "Created_DATE": "24/07/2023",
-          "Plan_STATUS": "Active",
-          "Catalogue_upload": ""
+        "Merchant_ID": "$747",
+        "Merchant_NAME": "Carlos Garcia",
+        "Location": "SmoozeShift",
+        "Updated_Date": "05/07/2021",
+        "Created_DATE": "24/07/2023",
+        "Plan_STATUS": "Active",
+        "Catalogue_upload": "No Upload"
       },
       {
-          "Merchant_ID": "$564",
-          "Merchant_NAME": "Elizabeth Bailey",
-          "Location": "Prime Time Telecom",
-          "Updated_Date": "18/01/2021",
-          "Created_DATE": "08/08/2023",
-          "Plan_STATUS": "In-active",
-          "Catalogue_upload": ""
+        "Merchant_ID": "$564",
+        "Merchant_NAME": "Elizabeth Bailey",
+        "Location": "Prime Time Telecom",
+        "Updated_Date": "18/01/2021",
+        "Created_DATE": "08/08/2023",
+        "Plan_STATUS": "In-active",
+        "Catalogue_upload": "No Upload"
       },
       {
-          "Merchant_ID": "$541",
-          "Merchant_NAME": "Ryan Brown",
-          "Location": "OmniTech Corporation",
-          "Updated_Date": "01/03/2023",
-          "Created_DATE": "31/08/2023",
-          "Plan_STATUS": "In-active",
-          "Catalogue_upload": ""
+        "Merchant_ID": "$541",
+        "Merchant_NAME": "Ryan Brown",
+        "Location": "OmniTech Corporation",
+        "Updated_Date": "01/03/2023",
+        "Created_DATE": "31/08/2023",
+        "Plan_STATUS": "In-active",
+        "Catalogue_upload": "No Upload"
       },
       {
-          "Merchant_ID": "$769",
-          "Merchant_NAME": "Ryan Young",
-          "Location": "DataStream Inc.",
-          "Updated_Date": "21/01/2020",
-          "Created_DATE": "01/05/2023",
-          "Plan_STATUS": "Active",
-          "Catalogue_upload": ""
+        "Merchant_ID": "$769",
+        "Merchant_NAME": "Ryan Young",
+        "Location": "DataStream Inc.",
+        "Updated_Date": "21/01/2020",
+        "Created_DATE": "01/05/2023",
+        "Plan_STATUS": "Active",
+        "Catalogue_upload": "No Upload"
       },
       {
-          "Merchant_ID": "$922",
-          "Merchant_NAME": "Hailey Adams",
-          "Location": "FlowRush",
-          "Updated_Date": "02/11/2021",
-          "Created_DATE": "10/06/2023",
-          "Plan_STATUS": "Active",
-          "Catalogue_upload": ""
+        "Merchant_ID": "$922",
+        "Merchant_NAME": "Hailey Adams",
+        "Location": "FlowRush",
+        "Updated_Date": "02/11/2021",
+        "Created_DATE": "10/06/2023",
+        "Plan_STATUS": "Active",
+        "Catalogue_upload": "No Upload"
       },
       {
-          "Merchant_ID": "$185",
-          "Merchant_NAME": "Lauren Thompson",
-          "Location": "StreamLogic",
-          "Updated_Date": "17/07/2020",
-          "Created_DATE": "12/09/2023",
-          "Plan_STATUS": "Active",
-          "Catalogue_upload": ""
+        "Merchant_ID": "$185",
+        "Merchant_NAME": "Lauren Thompson",
+        "Location": "StreamLogic",
+        "Updated_Date": "17/07/2020",
+        "Created_DATE": "12/09/2023",
+        "Plan_STATUS": "Active",
+        "Catalogue_upload": "No Upload"
       }
-  ]
+      
+    ]
+  }
   
-}

@@ -1,13 +1,14 @@
-const express = require('express');
-const cors = require('cors');
+const jsonServer = require('json-server');
+const server = jsonServer.create();
+const router = jsonServer.router('db.json');
+const middlewares = jsonServer.defaults();
 
-const app = express();
+// Specify the primary key (e.g., 'Merchant_ID') for your data
+router.db._.id = 'Merchant_ID';
 
-// Enable CORS for all routes
-app.use(cors());
+server.use(middlewares);
+server.use(router);
 
-// ... Rest of your server code ...
-
-app.listen(3006, () => {
-  console.log('Server is running on http://localhost:3006');
+server.listen(3006, () => {
+  console.log('JSON Server is running');
 });
